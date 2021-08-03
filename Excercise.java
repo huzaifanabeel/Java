@@ -1,3 +1,4 @@
+//Author:Huzaifa Nabeel
 import java.util.Scanner;
 public class Excercise {
     public static void main(String[] args){
@@ -13,7 +14,9 @@ public class Excercise {
         System.out.println("Enter the fifth Marks");
         int marks4=sc.nextInt();
         
-        float percentage=(marks+marks1+marks2+marks3+marks4)/5;
+        int total=(marks+marks1+marks2+marks3+marks4);
+        int total_marks=500;
+        float percentage=(total*100)/total_marks;
         System.out.println("The percetage is");
         System.out.println(percentage);
 
